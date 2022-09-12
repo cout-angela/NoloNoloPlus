@@ -1,1 +1,0 @@
-yarn build && rmdir %~dp0..\customer /S /Q && ren %~dp0build customer && move /Y %~dp0customer  %~dp0..\ && pause
